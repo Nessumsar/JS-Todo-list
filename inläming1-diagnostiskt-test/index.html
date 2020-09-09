@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inlämning">
+    <meta name="keywords" content="Javascript">
+    <meta name="author" content="Lukas">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diagnosiskt test</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="float-left">
+        Name: <input type ="text" id ="name">
+        <br><br>
+        <input type = "button" id="submitBtn" value = "Create task" onclick="submit()">
+        <br><br>
+    </div>
+
+    <div class="float-right">
+        TaskID to mark as finished: <input type="text" id="delete">
+        <br><br>
+        <input type="button" id="deleteBtn" value="Delete" onclick="deleteTask()">
+        <br><br>
+    </div>
+</div>
+<br><br>
+<br><br>
+
+<hr>
+
+<p id="output"></p>
+
+
+</body>
+</html>
